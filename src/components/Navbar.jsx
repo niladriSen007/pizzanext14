@@ -5,7 +5,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-64 w-screen drop-shadow-xl ">
+    <nav className="flex items-center justify-between px-64 w-screen drop-shadow-xl  bg-transparent backdrop-blur-sm sticky top-0 z-50">
       <div>
         <Image
           src={"/images/logo.webp"}

@@ -8,7 +8,7 @@ import OutlineButton from "@/common/OutlineButton";
 
 const Hero = () => {
   return (
-    <div className="px-64 py-10 relative ">
+    <div className="px-64 py-10 relative">
       <div className="flex items-center justify-between relative z-30 ">
         <motion.div
           className="overflow-x-hidden "
