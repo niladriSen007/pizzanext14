@@ -69,10 +69,10 @@ const Hero = () => {
         }}
       >
         {/* <button className="flex items-center bg-orange-600 gap-2 text-white px-4 py-1 rounded-md">Order now <FaPlayCircle /></button> */}
-        <Button>
+        <Button className={"py-1"}>
           Order now <FaPlayCircle size={22} />
         </Button>
-        <OutlineButton>Learn more</OutlineButton>
+        <OutlineButton className={"py-1"}>Learn more</OutlineButton>
       </motion.div>
       <motion.div
         initial={{ opacity: 0 }}
@@ -90,10 +90,10 @@ const Hero = () => {
       >
         <Image
           src={"/images/ltc.png"}
-          alt="broccoli"
+          alt="ltc"
           width={13000}
           height={13000}
-          className="w-[800px] h-[800px]"
+          className="w-[800px] h-[800px] hover:scale-105 transition-all duration-500"
         />
       </motion.div>
     </div>
