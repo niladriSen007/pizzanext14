@@ -11,13 +11,13 @@ const MenuItems = ({image,name}) => {
           alt="pizzzahero"
           width={400}
           height={400}
-          className="w-[360px] h-[240px] drop-shadow-2xl rounded-full object-contain transition-all duration-700 overflow-hidden cursor-pointer"
+          className="w-[360px] h-[240px] hover:scale-105 drop-shadow-2xl rounded-full object-contain transition-all duration-300 overflow-hidden cursor-pointer"
         />
       </div>
-      <div className=" gap-2 px-10 flex flex-col justify-center items-center ">
+      <div className=" gap-3 px-10 flex flex-col justify-center items-center ">
         <h1 className="font-black text-lg">{name}</h1>
         <p className="text-xs">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate .</p>
-        <Button className=" w-40 text-sm font-bold">Add to cart $12</Button>
+        <Button className=" w-40 text-sm font-bold py-2">Add to cart $12</Button>
       </div>
     </section>
   );
